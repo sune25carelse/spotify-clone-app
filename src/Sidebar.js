@@ -24,10 +24,9 @@ function Sidebar() {
       <strong className="sidebar__title">PLAYLISTS</strong>
       <hr />
 
-      <SidebarOption title='Hip Hop' />
-      <SidebarOption title='Rock' />
-      <SidebarOption title='R&B' />
-
+      {playlists?.items?.map((playlist) => (
+        <SidebarOption title={playlist.name} />
+      ))}
     </div>
   );
 }
