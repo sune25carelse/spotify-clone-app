@@ -5,3 +5,21 @@
   color: white;
   background: linear-gradient(rgb(91, 87, 115), rgba(0, 0, 0, 1));
 }
+
+.body__info {
+  display: flex;
+  align-items: flex-end;
+}
+
+.body__infoText {
+  flex: 1;
+}
+
+.body__infoText > h2 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.body__infoText > p {
+  font-size: 14px;
+}
